@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 永久免费不要被骗, server: 162.159.138.178, port: 2096, type: vless, uuid: cff5e3ad-5bb8-4d3a-9b26-d43ecd9ac1c3, tls: true, tfo: false, skip-cert-verify: true, servername: fly.workerscf.us.kg, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.multacom.fxxk.dedyn.io", headers: {Host: fly.workerscf.us.kg}}}
   - {name: 欢乐时光-移动 01, server: 162.159.138.178, port: 8443, type: vless, uuid: cff5e3ad-5bb8-4d3a-9b26-d43ecd9ac1c3, tls: true, tfo: false, skip-cert-verify: true, servername: fly.workerscf.us.kg, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.vultr.fxxk.dedyn.io", headers: {Host: fly.workerscf.us.kg}}}
   - {name: 欢乐时光-移动 02, server: 162.159.142.252, port: 2096, type: vless, uuid: cff5e3ad-5bb8-4d3a-9b26-d43ecd9ac1c3, tls: true, tfo: false, skip-cert-verify: true, servername: fly.workerscf.us.kg, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.vultr.fxxk.dedyn.io", headers: {Host: fly.workerscf.us.kg}}}
   - {name: 欢乐时光-移动 03, server: 162.159.141.161, port: 2053, type: vless, uuid: cff5e3ad-5bb8-4d3a-9b26-d43ecd9ac1c3, tls: true, tfo: false, skip-cert-verify: true, servername: fly.workerscf.us.kg, network: ws, ws-opts: {path: "/?ed=2560&proxyip=proxyip.multacom.fxxk.dedyn.io", headers: {Host: fly.workerscf.us.kg}}}
@@ -170,7 +169,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 永久免费不要被骗
       - 欢乐时光-移动 01
       - 欢乐时光-移动 02
       - 欢乐时光-移动 03
@@ -333,7 +331,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 永久免费不要被骗
       - 欢乐时光-移动 01
       - 欢乐时光-移动 02
       - 欢乐时光-移动 03
@@ -495,7 +492,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 永久免费不要被骗
       - 欢乐时光-移动 01
       - 欢乐时光-移动 02
       - 欢乐时光-移动 03
@@ -658,7 +654,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 永久免费不要被骗
       - 欢乐时光-移动 01
       - 欢乐时光-移动 02
       - 欢乐时光-移动 03
@@ -834,7 +829,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 永久免费不要被骗
       - 欢乐时光-移动 01
       - 欢乐时光-移动 02
       - 欢乐时光-移动 03
